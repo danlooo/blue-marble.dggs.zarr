@@ -1,0 +1,2540 @@
+{
+    "zarr_consolidated_format": 1,
+    "metadata": {
+        "dggs_s10/Blue/.zarray": {
+            "dtype": "<u1",
+            "filters": null,
+            "shape": [
+                5,
+                1024,
+                2048
+            ],
+            "order": "C",
+            "zarr_format": 2,
+            "chunks": [
+                5,
+                1024,
+                2048
+            ],
+            "fill_value": 255,
+            "compressor": {
+                "blocksize": 0,
+                "id": "blosc",
+                "clevel": 5,
+                "cname": "lz4",
+                "shuffle": 1
+            }
+        },
+        "dggs_s5/dggs_i/.zarray": {
+            "dtype": "<i8",
+            "filters": null,
+            "shape": [
+                64
+            ],
+            "order": "C",
+            "zarr_format": 2,
+            "chunks": [
+                64
+            ],
+            "fill_value": 9223372036854775807,
+            "compressor": {
+                "blocksize": 0,
+                "id": "blosc",
+                "clevel": 5,
+                "cname": "lz4",
+                "shuffle": 1
+            }
+        },
+        "dggs_s8/Red/.zarray": {
+            "dtype": "<u1",
+            "filters": null,
+            "shape": [
+                5,
+                256,
+                512
+            ],
+            "order": "C",
+            "zarr_format": 2,
+            "chunks": [
+                5,
+                256,
+                512
+            ],
+            "fill_value": 255,
+            "compressor": {
+                "blocksize": 0,
+                "id": "blosc",
+                "clevel": 5,
+                "cname": "lz4",
+                "shuffle": 1
+            }
+        },
+        ".zattrs": {
+            "dggs_bbox": {
+                "Y": [
+                    -90.0,
+                    90.0
+                ],
+                "X": [
+                    -180.0,
+                    180.0
+                ]
+            },
+            "dggs_dggsrs": "ISEA4D.Penta"
+        },
+        "dggs_s2/dggs_n/.zarray": {
+            "dtype": "<i8",
+            "filters": null,
+            "shape": [
+                5
+            ],
+            "order": "C",
+            "zarr_format": 2,
+            "chunks": [
+                5
+            ],
+            "fill_value": 9223372036854775807,
+            "compressor": {
+                "blocksize": 0,
+                "id": "blosc",
+                "clevel": 5,
+                "cname": "lz4",
+                "shuffle": 1
+            }
+        },
+        "dggs_s7/Red/.zattrs": {
+            "missing_value": 255,
+            "author": "NASA Earth Observatory",
+            "dggs_resolution": 7,
+            "source": "https://eoimages.gsfc.nasa.gov/images/imagerecords/73000/73826/world.topo.bathy.200410.3x21600x21600.D2.png",
+            "dggs_bbox": {
+                "Y": [
+                    -90.0,
+                    90.0
+                ],
+                "X": [
+                    -180.0,
+                    180.0
+                ]
+            },
+            "_ARRAY_DIMENSIONS": [
+                "dggs_n",
+                "dggs_j",
+                "dggs_i"
+            ],
+            "title": "October, Blue Marble Next Generation",
+            "dggs_dggsrs": "ISEA4D.Penta",
+            "published": "2004-10-1"
+        },
+        "dggs_s9/dggs_n/.zattrs": {
+            "_ARRAY_DIMENSIONS": [
+                "dggs_n"
+            ],
+            "_ARRAY_OFFSET": 0
+        },
+        "dggs_s4/Red/.zarray": {
+            "dtype": "<u1",
+            "filters": null,
+            "shape": [
+                5,
+                16,
+                32
+            ],
+            "order": "C",
+            "zarr_format": 2,
+            "chunks": [
+                5,
+                16,
+                32
+            ],
+            "fill_value": 255,
+            "compressor": {
+                "blocksize": 0,
+                "id": "blosc",
+                "clevel": 5,
+                "cname": "lz4",
+                "shuffle": 1
+            }
+        },
+        "dggs_s10/dggs_i/.zattrs": {
+            "_ARRAY_DIMENSIONS": [
+                "dggs_i"
+            ],
+            "_ARRAY_OFFSET": 0
+        },
+        "dggs_s7/dggs_n/.zattrs": {
+            "_ARRAY_DIMENSIONS": [
+                "dggs_n"
+            ],
+            "_ARRAY_OFFSET": 0
+        },
+        "dggs_s10/dggs_j/.zattrs": {
+            "_ARRAY_DIMENSIONS": [
+                "dggs_j"
+            ],
+            "_ARRAY_OFFSET": 0
+        },
+        "dggs_s4/Blue/.zattrs": {
+            "missing_value": 255,
+            "author": "NASA Earth Observatory",
+            "dggs_resolution": 4,
+            "source": "https://eoimages.gsfc.nasa.gov/images/imagerecords/73000/73826/world.topo.bathy.200410.3x21600x21600.D2.png",
+            "dggs_bbox": {
+                "Y": [
+                    -90.0,
+                    90.0
+                ],
+                "X": [
+                    -180.0,
+                    180.0
+                ]
+            },
+            "_ARRAY_DIMENSIONS": [
+                "dggs_n",
+                "dggs_j",
+                "dggs_i"
+            ],
+            "title": "October, Blue Marble Next Generation",
+            "dggs_dggsrs": "ISEA4D.Penta",
+            "published": "2004-10-1"
+        },
+        "dggs_s8/.zgroup": {
+            "zarr_format": 2
+        },
+        "dggs_s6/dggs_i/.zattrs": {
+            "_ARRAY_DIMENSIONS": [
+                "dggs_i"
+            ],
+            "_ARRAY_OFFSET": 0
+        },
+        "dggs_s10/.zattrs": {
+            "dggs_resolution": 10,
+            "dggs_dggsrs": "ISEA4D.Penta"
+        },
+        "dggs_s1/dggs_n/.zattrs": {
+            "_ARRAY_DIMENSIONS": [
+                "dggs_n"
+            ],
+            "_ARRAY_OFFSET": 0
+        },
+        "dggs_s2/Blue/.zattrs": {
+            "missing_value": 255,
+            "author": "NASA Earth Observatory",
+            "dggs_resolution": 2,
+            "source": "https://eoimages.gsfc.nasa.gov/images/imagerecords/73000/73826/world.topo.bathy.200410.3x21600x21600.D2.png",
+            "dggs_bbox": {
+                "Y": [
+                    -90.0,
+                    90.0
+                ],
+                "X": [
+                    -180.0,
+                    180.0
+                ]
+            },
+            "_ARRAY_DIMENSIONS": [
+                "dggs_n",
+                "dggs_j",
+                "dggs_i"
+            ],
+            "title": "October, Blue Marble Next Generation",
+            "dggs_dggsrs": "ISEA4D.Penta",
+            "published": "2004-10-1"
+        },
+        "dggs_s7/dggs_j/.zarray": {
+            "dtype": "<i8",
+            "filters": null,
+            "shape": [
+                128
+            ],
+            "order": "C",
+            "zarr_format": 2,
+            "chunks": [
+                128
+            ],
+            "fill_value": 9223372036854775807,
+            "compressor": {
+                "blocksize": 0,
+                "id": "blosc",
+                "clevel": 5,
+                "cname": "lz4",
+                "shuffle": 1
+            }
+        },
+        "dggs_s1/Green/.zattrs": {
+            "missing_value": 255,
+            "author": "NASA Earth Observatory",
+            "dggs_resolution": 1,
+            "source": "https://eoimages.gsfc.nasa.gov/images/imagerecords/73000/73826/world.topo.bathy.200410.3x21600x21600.D2.png",
+            "dggs_bbox": {
+                "Y": [
+                    -90.0,
+                    90.0
+                ],
+                "X": [
+                    -180.0,
+                    180.0
+                ]
+            },
+            "_ARRAY_DIMENSIONS": [
+                "dggs_n",
+                "dggs_j",
+                "dggs_i"
+            ],
+            "title": "October, Blue Marble Next Generation",
+            "dggs_dggsrs": "ISEA4D.Penta",
+            "published": "2004-10-1"
+        },
+        "dggs_s8/Blue/.zarray": {
+            "dtype": "<u1",
+            "filters": null,
+            "shape": [
+                5,
+                256,
+                512
+            ],
+            "order": "C",
+            "zarr_format": 2,
+            "chunks": [
+                5,
+                256,
+                512
+            ],
+            "fill_value": 255,
+            "compressor": {
+                "blocksize": 0,
+                "id": "blosc",
+                "clevel": 5,
+                "cname": "lz4",
+                "shuffle": 1
+            }
+        },
+        "dggs_s10/Green/.zattrs": {
+            "missing_value": 255,
+            "author": "NASA Earth Observatory",
+            "dggs_resolution": 10,
+            "source": "https://eoimages.gsfc.nasa.gov/images/imagerecords/73000/73826/world.topo.bathy.200410.3x21600x21600.D2.png",
+            "dggs_bbox": {
+                "Y": [
+                    -90.0,
+                    90.0
+                ],
+                "X": [
+                    -180.0,
+                    180.0
+                ]
+            },
+            "_ARRAY_DIMENSIONS": [
+                "dggs_n",
+                "dggs_j",
+                "dggs_i"
+            ],
+            "title": "October, Blue Marble Next Generation",
+            "dggs_dggsrs": "ISEA4D.Penta",
+            "published": "2004-10-1"
+        },
+        "dggs_s1/dggs_j/.zarray": {
+            "dtype": "<i8",
+            "filters": null,
+            "shape": [
+                2
+            ],
+            "order": "C",
+            "zarr_format": 2,
+            "chunks": [
+                2
+            ],
+            "fill_value": 9223372036854775807,
+            "compressor": {
+                "blocksize": 0,
+                "id": "blosc",
+                "clevel": 5,
+                "cname": "lz4",
+                "shuffle": 1
+            }
+        },
+        "dggs_s8/Blue/.zattrs": {
+            "missing_value": 255,
+            "author": "NASA Earth Observatory",
+            "dggs_resolution": 8,
+            "source": "https://eoimages.gsfc.nasa.gov/images/imagerecords/73000/73826/world.topo.bathy.200410.3x21600x21600.D2.png",
+            "dggs_bbox": {
+                "Y": [
+                    -90.0,
+                    90.0
+                ],
+                "X": [
+                    -180.0,
+                    180.0
+                ]
+            },
+            "_ARRAY_DIMENSIONS": [
+                "dggs_n",
+                "dggs_j",
+                "dggs_i"
+            ],
+            "title": "October, Blue Marble Next Generation",
+            "dggs_dggsrs": "ISEA4D.Penta",
+            "published": "2004-10-1"
+        },
+        "dggs_s4/dggs_n/.zattrs": {
+            "_ARRAY_DIMENSIONS": [
+                "dggs_n"
+            ],
+            "_ARRAY_OFFSET": 0
+        },
+        "dggs_s9/dggs_i/.zattrs": {
+            "_ARRAY_DIMENSIONS": [
+                "dggs_i"
+            ],
+            "_ARRAY_OFFSET": 0
+        },
+        "dggs_s9/dggs_i/.zarray": {
+            "dtype": "<i8",
+            "filters": null,
+            "shape": [
+                1024
+            ],
+            "order": "C",
+            "zarr_format": 2,
+            "chunks": [
+                1024
+            ],
+            "fill_value": 9223372036854775807,
+            "compressor": {
+                "blocksize": 0,
+                "id": "blosc",
+                "clevel": 5,
+                "cname": "lz4",
+                "shuffle": 1
+            }
+        },
+        "dggs_s2/dggs_n/.zattrs": {
+            "_ARRAY_DIMENSIONS": [
+                "dggs_n"
+            ],
+            "_ARRAY_OFFSET": 0
+        },
+        "dggs_s3/Red/.zarray": {
+            "dtype": "<u1",
+            "filters": null,
+            "shape": [
+                5,
+                8,
+                16
+            ],
+            "order": "C",
+            "zarr_format": 2,
+            "chunks": [
+                5,
+                8,
+                16
+            ],
+            "fill_value": 255,
+            "compressor": {
+                "blocksize": 0,
+                "id": "blosc",
+                "clevel": 5,
+                "cname": "lz4",
+                "shuffle": 1
+            }
+        },
+        "dggs_s5/Green/.zarray": {
+            "dtype": "<u1",
+            "filters": null,
+            "shape": [
+                5,
+                32,
+                64
+            ],
+            "order": "C",
+            "zarr_format": 2,
+            "chunks": [
+                5,
+                32,
+                64
+            ],
+            "fill_value": 255,
+            "compressor": {
+                "blocksize": 0,
+                "id": "blosc",
+                "clevel": 5,
+                "cname": "lz4",
+                "shuffle": 1
+            }
+        },
+        "dggs_s3/dggs_n/.zattrs": {
+            "_ARRAY_DIMENSIONS": [
+                "dggs_n"
+            ],
+            "_ARRAY_OFFSET": 0
+        },
+        "dggs_s8/Red/.zattrs": {
+            "missing_value": 255,
+            "author": "NASA Earth Observatory",
+            "dggs_resolution": 8,
+            "source": "https://eoimages.gsfc.nasa.gov/images/imagerecords/73000/73826/world.topo.bathy.200410.3x21600x21600.D2.png",
+            "dggs_bbox": {
+                "Y": [
+                    -90.0,
+                    90.0
+                ],
+                "X": [
+                    -180.0,
+                    180.0
+                ]
+            },
+            "_ARRAY_DIMENSIONS": [
+                "dggs_n",
+                "dggs_j",
+                "dggs_i"
+            ],
+            "title": "October, Blue Marble Next Generation",
+            "dggs_dggsrs": "ISEA4D.Penta",
+            "published": "2004-10-1"
+        },
+        "dggs_s1/.zattrs": {
+            "dggs_resolution": 1,
+            "dggs_dggsrs": "ISEA4D.Penta"
+        },
+        "dggs_s2/dggs_i/.zattrs": {
+            "_ARRAY_DIMENSIONS": [
+                "dggs_i"
+            ],
+            "_ARRAY_OFFSET": 0
+        },
+        "dggs_s3/dggs_j/.zattrs": {
+            "_ARRAY_DIMENSIONS": [
+                "dggs_j"
+            ],
+            "_ARRAY_OFFSET": 0
+        },
+        "dggs_s11/dggs_n/.zattrs": {
+            "_ARRAY_DIMENSIONS": [
+                "dggs_n"
+            ],
+            "_ARRAY_OFFSET": 0
+        },
+        "dggs_s9/.zgroup": {
+            "zarr_format": 2
+        },
+        "dggs_s5/Red/.zattrs": {
+            "missing_value": 255,
+            "author": "NASA Earth Observatory",
+            "dggs_resolution": 5,
+            "source": "https://eoimages.gsfc.nasa.gov/images/imagerecords/73000/73826/world.topo.bathy.200410.3x21600x21600.D2.png",
+            "dggs_bbox": {
+                "Y": [
+                    -90.0,
+                    90.0
+                ],
+                "X": [
+                    -180.0,
+                    180.0
+                ]
+            },
+            "_ARRAY_DIMENSIONS": [
+                "dggs_n",
+                "dggs_j",
+                "dggs_i"
+            ],
+            "title": "October, Blue Marble Next Generation",
+            "dggs_dggsrs": "ISEA4D.Penta",
+            "published": "2004-10-1"
+        },
+        "dggs_s10/Red/.zattrs": {
+            "missing_value": 255,
+            "author": "NASA Earth Observatory",
+            "dggs_resolution": 10,
+            "source": "https://eoimages.gsfc.nasa.gov/images/imagerecords/73000/73826/world.topo.bathy.200410.3x21600x21600.D2.png",
+            "dggs_bbox": {
+                "Y": [
+                    -90.0,
+                    90.0
+                ],
+                "X": [
+                    -180.0,
+                    180.0
+                ]
+            },
+            "_ARRAY_DIMENSIONS": [
+                "dggs_n",
+                "dggs_j",
+                "dggs_i"
+            ],
+            "title": "October, Blue Marble Next Generation",
+            "dggs_dggsrs": "ISEA4D.Penta",
+            "published": "2004-10-1"
+        },
+        "dggs_s11/dggs_j/.zattrs": {
+            "_ARRAY_DIMENSIONS": [
+                "dggs_j"
+            ],
+            "_ARRAY_OFFSET": 0
+        },
+        "dggs_s3/dggs_i/.zarray": {
+            "dtype": "<i8",
+            "filters": null,
+            "shape": [
+                16
+            ],
+            "order": "C",
+            "zarr_format": 2,
+            "chunks": [
+                16
+            ],
+            "fill_value": 9223372036854775807,
+            "compressor": {
+                "blocksize": 0,
+                "id": "blosc",
+                "clevel": 5,
+                "cname": "lz4",
+                "shuffle": 1
+            }
+        },
+        "dggs_s6/Blue/.zattrs": {
+            "missing_value": 255,
+            "author": "NASA Earth Observatory",
+            "dggs_resolution": 6,
+            "source": "https://eoimages.gsfc.nasa.gov/images/imagerecords/73000/73826/world.topo.bathy.200410.3x21600x21600.D2.png",
+            "dggs_bbox": {
+                "Y": [
+                    -90.0,
+                    90.0
+                ],
+                "X": [
+                    -180.0,
+                    180.0
+                ]
+            },
+            "_ARRAY_DIMENSIONS": [
+                "dggs_n",
+                "dggs_j",
+                "dggs_i"
+            ],
+            "title": "October, Blue Marble Next Generation",
+            "dggs_dggsrs": "ISEA4D.Penta",
+            "published": "2004-10-1"
+        },
+        "dggs_s5/Green/.zattrs": {
+            "missing_value": 255,
+            "author": "NASA Earth Observatory",
+            "dggs_resolution": 5,
+            "source": "https://eoimages.gsfc.nasa.gov/images/imagerecords/73000/73826/world.topo.bathy.200410.3x21600x21600.D2.png",
+            "dggs_bbox": {
+                "Y": [
+                    -90.0,
+                    90.0
+                ],
+                "X": [
+                    -180.0,
+                    180.0
+                ]
+            },
+            "_ARRAY_DIMENSIONS": [
+                "dggs_n",
+                "dggs_j",
+                "dggs_i"
+            ],
+            "title": "October, Blue Marble Next Generation",
+            "dggs_dggsrs": "ISEA4D.Penta",
+            "published": "2004-10-1"
+        },
+        "dggs_s9/Green/.zarray": {
+            "dtype": "<u1",
+            "filters": null,
+            "shape": [
+                5,
+                512,
+                1024
+            ],
+            "order": "C",
+            "zarr_format": 2,
+            "chunks": [
+                5,
+                512,
+                1024
+            ],
+            "fill_value": 255,
+            "compressor": {
+                "blocksize": 0,
+                "id": "blosc",
+                "clevel": 5,
+                "cname": "lz4",
+                "shuffle": 1
+            }
+        },
+        "dggs_s3/.zattrs": {
+            "dggs_resolution": 3,
+            "dggs_dggsrs": "ISEA4D.Penta"
+        },
+        "dggs_s9/dggs_n/.zarray": {
+            "dtype": "<i8",
+            "filters": null,
+            "shape": [
+                5
+            ],
+            "order": "C",
+            "zarr_format": 2,
+            "chunks": [
+                5
+            ],
+            "fill_value": 9223372036854775807,
+            "compressor": {
+                "blocksize": 0,
+                "id": "blosc",
+                "clevel": 5,
+                "cname": "lz4",
+                "shuffle": 1
+            }
+        },
+        "dggs_s3/dggs_i/.zattrs": {
+            "_ARRAY_DIMENSIONS": [
+                "dggs_i"
+            ],
+            "_ARRAY_OFFSET": 0
+        },
+        "dggs_s10/Blue/.zattrs": {
+            "missing_value": 255,
+            "author": "NASA Earth Observatory",
+            "dggs_resolution": 10,
+            "source": "https://eoimages.gsfc.nasa.gov/images/imagerecords/73000/73826/world.topo.bathy.200410.3x21600x21600.D2.png",
+            "dggs_bbox": {
+                "Y": [
+                    -90.0,
+                    90.0
+                ],
+                "X": [
+                    -180.0,
+                    180.0
+                ]
+            },
+            "_ARRAY_DIMENSIONS": [
+                "dggs_n",
+                "dggs_j",
+                "dggs_i"
+            ],
+            "title": "October, Blue Marble Next Generation",
+            "dggs_dggsrs": "ISEA4D.Penta",
+            "published": "2004-10-1"
+        },
+        "dggs_s5/Red/.zarray": {
+            "dtype": "<u1",
+            "filters": null,
+            "shape": [
+                5,
+                32,
+                64
+            ],
+            "order": "C",
+            "zarr_format": 2,
+            "chunks": [
+                5,
+                32,
+                64
+            ],
+            "fill_value": 255,
+            "compressor": {
+                "blocksize": 0,
+                "id": "blosc",
+                "clevel": 5,
+                "cname": "lz4",
+                "shuffle": 1
+            }
+        },
+        "dggs_s6/dggs_i/.zarray": {
+            "dtype": "<i8",
+            "filters": null,
+            "shape": [
+                128
+            ],
+            "order": "C",
+            "zarr_format": 2,
+            "chunks": [
+                128
+            ],
+            "fill_value": 9223372036854775807,
+            "compressor": {
+                "blocksize": 0,
+                "id": "blosc",
+                "clevel": 5,
+                "cname": "lz4",
+                "shuffle": 1
+            }
+        },
+        "dggs_s8/dggs_j/.zarray": {
+            "dtype": "<i8",
+            "filters": null,
+            "shape": [
+                256
+            ],
+            "order": "C",
+            "zarr_format": 2,
+            "chunks": [
+                256
+            ],
+            "fill_value": 9223372036854775807,
+            "compressor": {
+                "blocksize": 0,
+                "id": "blosc",
+                "clevel": 5,
+                "cname": "lz4",
+                "shuffle": 1
+            }
+        },
+        "dggs_s5/dggs_j/.zarray": {
+            "dtype": "<i8",
+            "filters": null,
+            "shape": [
+                32
+            ],
+            "order": "C",
+            "zarr_format": 2,
+            "chunks": [
+                32
+            ],
+            "fill_value": 9223372036854775807,
+            "compressor": {
+                "blocksize": 0,
+                "id": "blosc",
+                "clevel": 5,
+                "cname": "lz4",
+                "shuffle": 1
+            }
+        },
+        ".zgroup": {
+            "zarr_format": 2
+        },
+        "dggs_s2/Green/.zarray": {
+            "dtype": "<u1",
+            "filters": null,
+            "shape": [
+                5,
+                4,
+                8
+            ],
+            "order": "C",
+            "zarr_format": 2,
+            "chunks": [
+                5,
+                4,
+                8
+            ],
+            "fill_value": 255,
+            "compressor": {
+                "blocksize": 0,
+                "id": "blosc",
+                "clevel": 5,
+                "cname": "lz4",
+                "shuffle": 1
+            }
+        },
+        "dggs_s5/Blue/.zarray": {
+            "dtype": "<u1",
+            "filters": null,
+            "shape": [
+                5,
+                32,
+                64
+            ],
+            "order": "C",
+            "zarr_format": 2,
+            "chunks": [
+                5,
+                32,
+                64
+            ],
+            "fill_value": 255,
+            "compressor": {
+                "blocksize": 0,
+                "id": "blosc",
+                "clevel": 5,
+                "cname": "lz4",
+                "shuffle": 1
+            }
+        },
+        "dggs_s11/dggs_j/.zarray": {
+            "dtype": "<i8",
+            "filters": null,
+            "shape": [
+                2048
+            ],
+            "order": "C",
+            "zarr_format": 2,
+            "chunks": [
+                2048
+            ],
+            "fill_value": 9223372036854775807,
+            "compressor": {
+                "blocksize": 0,
+                "id": "blosc",
+                "clevel": 5,
+                "cname": "lz4",
+                "shuffle": 1
+            }
+        },
+        "dggs_s3/dggs_n/.zarray": {
+            "dtype": "<i8",
+            "filters": null,
+            "shape": [
+                5
+            ],
+            "order": "C",
+            "zarr_format": 2,
+            "chunks": [
+                5
+            ],
+            "fill_value": 9223372036854775807,
+            "compressor": {
+                "blocksize": 0,
+                "id": "blosc",
+                "clevel": 5,
+                "cname": "lz4",
+                "shuffle": 1
+            }
+        },
+        "dggs_s7/dggs_i/.zarray": {
+            "dtype": "<i8",
+            "filters": null,
+            "shape": [
+                256
+            ],
+            "order": "C",
+            "zarr_format": 2,
+            "chunks": [
+                256
+            ],
+            "fill_value": 9223372036854775807,
+            "compressor": {
+                "blocksize": 0,
+                "id": "blosc",
+                "clevel": 5,
+                "cname": "lz4",
+                "shuffle": 1
+            }
+        },
+        "dggs_s8/Green/.zarray": {
+            "dtype": "<u1",
+            "filters": null,
+            "shape": [
+                5,
+                256,
+                512
+            ],
+            "order": "C",
+            "zarr_format": 2,
+            "chunks": [
+                5,
+                256,
+                512
+            ],
+            "fill_value": 255,
+            "compressor": {
+                "blocksize": 0,
+                "id": "blosc",
+                "clevel": 5,
+                "cname": "lz4",
+                "shuffle": 1
+            }
+        },
+        "dggs_s11/Blue/.zattrs": {
+            "missing_value": 255,
+            "author": "NASA Earth Observatory",
+            "dggs_resolution": 11,
+            "source": "https://eoimages.gsfc.nasa.gov/images/imagerecords/73000/73826/world.topo.bathy.200410.3x21600x21600.D2.png",
+            "dggs_bbox": {
+                "Y": [
+                    -90.0,
+                    90.0
+                ],
+                "X": [
+                    -180.0,
+                    180.0
+                ]
+            },
+            "_ARRAY_DIMENSIONS": [
+                "dggs_n",
+                "dggs_j",
+                "dggs_i"
+            ],
+            "title": "October, Blue Marble Next Generation",
+            "dggs_dggsrs": "ISEA4D.Penta",
+            "published": "2004-10-1"
+        },
+        "dggs_s1/Red/.zarray": {
+            "dtype": "<u1",
+            "filters": null,
+            "shape": [
+                5,
+                2,
+                4
+            ],
+            "order": "C",
+            "zarr_format": 2,
+            "chunks": [
+                5,
+                2,
+                4
+            ],
+            "fill_value": 255,
+            "compressor": {
+                "blocksize": 0,
+                "id": "blosc",
+                "clevel": 5,
+                "cname": "lz4",
+                "shuffle": 1
+            }
+        },
+        "dggs_s1/Blue/.zattrs": {
+            "missing_value": 255,
+            "author": "NASA Earth Observatory",
+            "dggs_resolution": 1,
+            "source": "https://eoimages.gsfc.nasa.gov/images/imagerecords/73000/73826/world.topo.bathy.200410.3x21600x21600.D2.png",
+            "dggs_bbox": {
+                "Y": [
+                    -90.0,
+                    90.0
+                ],
+                "X": [
+                    -180.0,
+                    180.0
+                ]
+            },
+            "_ARRAY_DIMENSIONS": [
+                "dggs_n",
+                "dggs_j",
+                "dggs_i"
+            ],
+            "title": "October, Blue Marble Next Generation",
+            "dggs_dggsrs": "ISEA4D.Penta",
+            "published": "2004-10-1"
+        },
+        "dggs_s5/dggs_i/.zattrs": {
+            "_ARRAY_DIMENSIONS": [
+                "dggs_i"
+            ],
+            "_ARRAY_OFFSET": 0
+        },
+        "dggs_s6/Green/.zattrs": {
+            "missing_value": 255,
+            "author": "NASA Earth Observatory",
+            "dggs_resolution": 6,
+            "source": "https://eoimages.gsfc.nasa.gov/images/imagerecords/73000/73826/world.topo.bathy.200410.3x21600x21600.D2.png",
+            "dggs_bbox": {
+                "Y": [
+                    -90.0,
+                    90.0
+                ],
+                "X": [
+                    -180.0,
+                    180.0
+                ]
+            },
+            "_ARRAY_DIMENSIONS": [
+                "dggs_n",
+                "dggs_j",
+                "dggs_i"
+            ],
+            "title": "October, Blue Marble Next Generation",
+            "dggs_dggsrs": "ISEA4D.Penta",
+            "published": "2004-10-1"
+        },
+        "dggs_s7/Blue/.zarray": {
+            "dtype": "<u1",
+            "filters": null,
+            "shape": [
+                5,
+                128,
+                256
+            ],
+            "order": "C",
+            "zarr_format": 2,
+            "chunks": [
+                5,
+                128,
+                256
+            ],
+            "fill_value": 255,
+            "compressor": {
+                "blocksize": 0,
+                "id": "blosc",
+                "clevel": 5,
+                "cname": "lz4",
+                "shuffle": 1
+            }
+        },
+        "dggs_s8/Green/.zattrs": {
+            "missing_value": 255,
+            "author": "NASA Earth Observatory",
+            "dggs_resolution": 8,
+            "source": "https://eoimages.gsfc.nasa.gov/images/imagerecords/73000/73826/world.topo.bathy.200410.3x21600x21600.D2.png",
+            "dggs_bbox": {
+                "Y": [
+                    -90.0,
+                    90.0
+                ],
+                "X": [
+                    -180.0,
+                    180.0
+                ]
+            },
+            "_ARRAY_DIMENSIONS": [
+                "dggs_n",
+                "dggs_j",
+                "dggs_i"
+            ],
+            "title": "October, Blue Marble Next Generation",
+            "dggs_dggsrs": "ISEA4D.Penta",
+            "published": "2004-10-1"
+        },
+        "dggs_s6/.zgroup": {
+            "zarr_format": 2
+        },
+        "dggs_s11/Green/.zarray": {
+            "dtype": "<u1",
+            "filters": null,
+            "shape": [
+                5,
+                2048,
+                4096
+            ],
+            "order": "C",
+            "zarr_format": 2,
+            "chunks": [
+                5,
+                2048,
+                4096
+            ],
+            "fill_value": 255,
+            "compressor": {
+                "blocksize": 0,
+                "id": "blosc",
+                "clevel": 5,
+                "cname": "lz4",
+                "shuffle": 1
+            }
+        },
+        "dggs_s3/Green/.zarray": {
+            "dtype": "<u1",
+            "filters": null,
+            "shape": [
+                5,
+                8,
+                16
+            ],
+            "order": "C",
+            "zarr_format": 2,
+            "chunks": [
+                5,
+                8,
+                16
+            ],
+            "fill_value": 255,
+            "compressor": {
+                "blocksize": 0,
+                "id": "blosc",
+                "clevel": 5,
+                "cname": "lz4",
+                "shuffle": 1
+            }
+        },
+        "dggs_s8/dggs_i/.zarray": {
+            "dtype": "<i8",
+            "filters": null,
+            "shape": [
+                512
+            ],
+            "order": "C",
+            "zarr_format": 2,
+            "chunks": [
+                512
+            ],
+            "fill_value": 9223372036854775807,
+            "compressor": {
+                "blocksize": 0,
+                "id": "blosc",
+                "clevel": 5,
+                "cname": "lz4",
+                "shuffle": 1
+            }
+        },
+        "dggs_s7/.zgroup": {
+            "zarr_format": 2
+        },
+        "dggs_s11/Blue/.zarray": {
+            "dtype": "<u1",
+            "filters": null,
+            "shape": [
+                5,
+                2048,
+                4096
+            ],
+            "order": "C",
+            "zarr_format": 2,
+            "chunks": [
+                5,
+                2048,
+                4096
+            ],
+            "fill_value": 255,
+            "compressor": {
+                "blocksize": 0,
+                "id": "blosc",
+                "clevel": 5,
+                "cname": "lz4",
+                "shuffle": 1
+            }
+        },
+        "dggs_s2/Green/.zattrs": {
+            "missing_value": 255,
+            "author": "NASA Earth Observatory",
+            "dggs_resolution": 2,
+            "source": "https://eoimages.gsfc.nasa.gov/images/imagerecords/73000/73826/world.topo.bathy.200410.3x21600x21600.D2.png",
+            "dggs_bbox": {
+                "Y": [
+                    -90.0,
+                    90.0
+                ],
+                "X": [
+                    -180.0,
+                    180.0
+                ]
+            },
+            "_ARRAY_DIMENSIONS": [
+                "dggs_n",
+                "dggs_j",
+                "dggs_i"
+            ],
+            "title": "October, Blue Marble Next Generation",
+            "dggs_dggsrs": "ISEA4D.Penta",
+            "published": "2004-10-1"
+        },
+        "dggs_s4/dggs_j/.zattrs": {
+            "_ARRAY_DIMENSIONS": [
+                "dggs_j"
+            ],
+            "_ARRAY_OFFSET": 0
+        },
+        "dggs_s11/Green/.zattrs": {
+            "missing_value": 255,
+            "author": "NASA Earth Observatory",
+            "dggs_resolution": 11,
+            "source": "https://eoimages.gsfc.nasa.gov/images/imagerecords/73000/73826/world.topo.bathy.200410.3x21600x21600.D2.png",
+            "dggs_bbox": {
+                "Y": [
+                    -90.0,
+                    90.0
+                ],
+                "X": [
+                    -180.0,
+                    180.0
+                ]
+            },
+            "_ARRAY_DIMENSIONS": [
+                "dggs_n",
+                "dggs_j",
+                "dggs_i"
+            ],
+            "title": "October, Blue Marble Next Generation",
+            "dggs_dggsrs": "ISEA4D.Penta",
+            "published": "2004-10-1"
+        },
+        "dggs_s5/.zgroup": {
+            "zarr_format": 2
+        },
+        "dggs_s9/Blue/.zattrs": {
+            "missing_value": 255,
+            "author": "NASA Earth Observatory",
+            "dggs_resolution": 9,
+            "source": "https://eoimages.gsfc.nasa.gov/images/imagerecords/73000/73826/world.topo.bathy.200410.3x21600x21600.D2.png",
+            "dggs_bbox": {
+                "Y": [
+                    -90.0,
+                    90.0
+                ],
+                "X": [
+                    -180.0,
+                    180.0
+                ]
+            },
+            "_ARRAY_DIMENSIONS": [
+                "dggs_n",
+                "dggs_j",
+                "dggs_i"
+            ],
+            "title": "October, Blue Marble Next Generation",
+            "dggs_dggsrs": "ISEA4D.Penta",
+            "published": "2004-10-1"
+        },
+        "dggs_s10/dggs_n/.zattrs": {
+            "_ARRAY_DIMENSIONS": [
+                "dggs_n"
+            ],
+            "_ARRAY_OFFSET": 0
+        },
+        "dggs_s3/Blue/.zattrs": {
+            "missing_value": 255,
+            "author": "NASA Earth Observatory",
+            "dggs_resolution": 3,
+            "source": "https://eoimages.gsfc.nasa.gov/images/imagerecords/73000/73826/world.topo.bathy.200410.3x21600x21600.D2.png",
+            "dggs_bbox": {
+                "Y": [
+                    -90.0,
+                    90.0
+                ],
+                "X": [
+                    -180.0,
+                    180.0
+                ]
+            },
+            "_ARRAY_DIMENSIONS": [
+                "dggs_n",
+                "dggs_j",
+                "dggs_i"
+            ],
+            "title": "October, Blue Marble Next Generation",
+            "dggs_dggsrs": "ISEA4D.Penta",
+            "published": "2004-10-1"
+        },
+        "dggs_s9/Blue/.zarray": {
+            "dtype": "<u1",
+            "filters": null,
+            "shape": [
+                5,
+                512,
+                1024
+            ],
+            "order": "C",
+            "zarr_format": 2,
+            "chunks": [
+                5,
+                512,
+                1024
+            ],
+            "fill_value": 255,
+            "compressor": {
+                "blocksize": 0,
+                "id": "blosc",
+                "clevel": 5,
+                "cname": "lz4",
+                "shuffle": 1
+            }
+        },
+        "dggs_s4/Green/.zattrs": {
+            "missing_value": 255,
+            "author": "NASA Earth Observatory",
+            "dggs_resolution": 4,
+            "source": "https://eoimages.gsfc.nasa.gov/images/imagerecords/73000/73826/world.topo.bathy.200410.3x21600x21600.D2.png",
+            "dggs_bbox": {
+                "Y": [
+                    -90.0,
+                    90.0
+                ],
+                "X": [
+                    -180.0,
+                    180.0
+                ]
+            },
+            "_ARRAY_DIMENSIONS": [
+                "dggs_n",
+                "dggs_j",
+                "dggs_i"
+            ],
+            "title": "October, Blue Marble Next Generation",
+            "dggs_dggsrs": "ISEA4D.Penta",
+            "published": "2004-10-1"
+        },
+        "dggs_s4/Red/.zattrs": {
+            "missing_value": 255,
+            "author": "NASA Earth Observatory",
+            "dggs_resolution": 4,
+            "source": "https://eoimages.gsfc.nasa.gov/images/imagerecords/73000/73826/world.topo.bathy.200410.3x21600x21600.D2.png",
+            "dggs_bbox": {
+                "Y": [
+                    -90.0,
+                    90.0
+                ],
+                "X": [
+                    -180.0,
+                    180.0
+                ]
+            },
+            "_ARRAY_DIMENSIONS": [
+                "dggs_n",
+                "dggs_j",
+                "dggs_i"
+            ],
+            "title": "October, Blue Marble Next Generation",
+            "dggs_dggsrs": "ISEA4D.Penta",
+            "published": "2004-10-1"
+        },
+        "dggs_s4/dggs_n/.zarray": {
+            "dtype": "<i8",
+            "filters": null,
+            "shape": [
+                5
+            ],
+            "order": "C",
+            "zarr_format": 2,
+            "chunks": [
+                5
+            ],
+            "fill_value": 9223372036854775807,
+            "compressor": {
+                "blocksize": 0,
+                "id": "blosc",
+                "clevel": 5,
+                "cname": "lz4",
+                "shuffle": 1
+            }
+        },
+        "dggs_s2/Blue/.zarray": {
+            "dtype": "<u1",
+            "filters": null,
+            "shape": [
+                5,
+                4,
+                8
+            ],
+            "order": "C",
+            "zarr_format": 2,
+            "chunks": [
+                5,
+                4,
+                8
+            ],
+            "fill_value": 255,
+            "compressor": {
+                "blocksize": 0,
+                "id": "blosc",
+                "clevel": 5,
+                "cname": "lz4",
+                "shuffle": 1
+            }
+        },
+        "dggs_s1/.zgroup": {
+            "zarr_format": 2
+        },
+        "dggs_s10/Red/.zarray": {
+            "dtype": "<u1",
+            "filters": null,
+            "shape": [
+                5,
+                1024,
+                2048
+            ],
+            "order": "C",
+            "zarr_format": 2,
+            "chunks": [
+                5,
+                1024,
+                2048
+            ],
+            "fill_value": 255,
+            "compressor": {
+                "blocksize": 0,
+                "id": "blosc",
+                "clevel": 5,
+                "cname": "lz4",
+                "shuffle": 1
+            }
+        },
+        "dggs_s7/Blue/.zattrs": {
+            "missing_value": 255,
+            "author": "NASA Earth Observatory",
+            "dggs_resolution": 7,
+            "source": "https://eoimages.gsfc.nasa.gov/images/imagerecords/73000/73826/world.topo.bathy.200410.3x21600x21600.D2.png",
+            "dggs_bbox": {
+                "Y": [
+                    -90.0,
+                    90.0
+                ],
+                "X": [
+                    -180.0,
+                    180.0
+                ]
+            },
+            "_ARRAY_DIMENSIONS": [
+                "dggs_n",
+                "dggs_j",
+                "dggs_i"
+            ],
+            "title": "October, Blue Marble Next Generation",
+            "dggs_dggsrs": "ISEA4D.Penta",
+            "published": "2004-10-1"
+        },
+        "dggs_s8/dggs_i/.zattrs": {
+            "_ARRAY_DIMENSIONS": [
+                "dggs_i"
+            ],
+            "_ARRAY_OFFSET": 0
+        },
+        "dggs_s9/dggs_j/.zattrs": {
+            "_ARRAY_DIMENSIONS": [
+                "dggs_j"
+            ],
+            "_ARRAY_OFFSET": 0
+        },
+        "dggs_s5/Blue/.zattrs": {
+            "missing_value": 255,
+            "author": "NASA Earth Observatory",
+            "dggs_resolution": 5,
+            "source": "https://eoimages.gsfc.nasa.gov/images/imagerecords/73000/73826/world.topo.bathy.200410.3x21600x21600.D2.png",
+            "dggs_bbox": {
+                "Y": [
+                    -90.0,
+                    90.0
+                ],
+                "X": [
+                    -180.0,
+                    180.0
+                ]
+            },
+            "_ARRAY_DIMENSIONS": [
+                "dggs_n",
+                "dggs_j",
+                "dggs_i"
+            ],
+            "title": "October, Blue Marble Next Generation",
+            "dggs_dggsrs": "ISEA4D.Penta",
+            "published": "2004-10-1"
+        },
+        "dggs_s10/.zgroup": {
+            "zarr_format": 2
+        },
+        "dggs_s5/dggs_j/.zattrs": {
+            "_ARRAY_DIMENSIONS": [
+                "dggs_j"
+            ],
+            "_ARRAY_OFFSET": 0
+        },
+        "dggs_s11/.zgroup": {
+            "zarr_format": 2
+        },
+        "dggs_s11/dggs_n/.zarray": {
+            "dtype": "<i8",
+            "filters": null,
+            "shape": [
+                5
+            ],
+            "order": "C",
+            "zarr_format": 2,
+            "chunks": [
+                5
+            ],
+            "fill_value": 9223372036854775807,
+            "compressor": {
+                "blocksize": 0,
+                "id": "blosc",
+                "clevel": 5,
+                "cname": "lz4",
+                "shuffle": 1
+            }
+        },
+        "dggs_s8/.zattrs": {
+            "dggs_resolution": 8,
+            "dggs_dggsrs": "ISEA4D.Penta"
+        },
+        "dggs_s8/dggs_j/.zattrs": {
+            "_ARRAY_DIMENSIONS": [
+                "dggs_j"
+            ],
+            "_ARRAY_OFFSET": 0
+        },
+        "dggs_s6/Red/.zarray": {
+            "dtype": "<u1",
+            "filters": null,
+            "shape": [
+                5,
+                64,
+                128
+            ],
+            "order": "C",
+            "zarr_format": 2,
+            "chunks": [
+                5,
+                64,
+                128
+            ],
+            "fill_value": 255,
+            "compressor": {
+                "blocksize": 0,
+                "id": "blosc",
+                "clevel": 5,
+                "cname": "lz4",
+                "shuffle": 1
+            }
+        },
+        "dggs_s3/Red/.zattrs": {
+            "missing_value": 255,
+            "author": "NASA Earth Observatory",
+            "dggs_resolution": 3,
+            "source": "https://eoimages.gsfc.nasa.gov/images/imagerecords/73000/73826/world.topo.bathy.200410.3x21600x21600.D2.png",
+            "dggs_bbox": {
+                "Y": [
+                    -90.0,
+                    90.0
+                ],
+                "X": [
+                    -180.0,
+                    180.0
+                ]
+            },
+            "_ARRAY_DIMENSIONS": [
+                "dggs_n",
+                "dggs_j",
+                "dggs_i"
+            ],
+            "title": "October, Blue Marble Next Generation",
+            "dggs_dggsrs": "ISEA4D.Penta",
+            "published": "2004-10-1"
+        },
+        "dggs_s6/dggs_j/.zattrs": {
+            "_ARRAY_DIMENSIONS": [
+                "dggs_j"
+            ],
+            "_ARRAY_OFFSET": 0
+        },
+        "dggs_s8/dggs_n/.zattrs": {
+            "_ARRAY_DIMENSIONS": [
+                "dggs_n"
+            ],
+            "_ARRAY_OFFSET": 0
+        },
+        "dggs_s7/.zattrs": {
+            "dggs_resolution": 7,
+            "dggs_dggsrs": "ISEA4D.Penta"
+        },
+        "dggs_s7/Green/.zattrs": {
+            "missing_value": 255,
+            "author": "NASA Earth Observatory",
+            "dggs_resolution": 7,
+            "source": "https://eoimages.gsfc.nasa.gov/images/imagerecords/73000/73826/world.topo.bathy.200410.3x21600x21600.D2.png",
+            "dggs_bbox": {
+                "Y": [
+                    -90.0,
+                    90.0
+                ],
+                "X": [
+                    -180.0,
+                    180.0
+                ]
+            },
+            "_ARRAY_DIMENSIONS": [
+                "dggs_n",
+                "dggs_j",
+                "dggs_i"
+            ],
+            "title": "October, Blue Marble Next Generation",
+            "dggs_dggsrs": "ISEA4D.Penta",
+            "published": "2004-10-1"
+        },
+        "dggs_s1/Red/.zattrs": {
+            "missing_value": 255,
+            "author": "NASA Earth Observatory",
+            "dggs_resolution": 1,
+            "source": "https://eoimages.gsfc.nasa.gov/images/imagerecords/73000/73826/world.topo.bathy.200410.3x21600x21600.D2.png",
+            "dggs_bbox": {
+                "Y": [
+                    -90.0,
+                    90.0
+                ],
+                "X": [
+                    -180.0,
+                    180.0
+                ]
+            },
+            "_ARRAY_DIMENSIONS": [
+                "dggs_n",
+                "dggs_j",
+                "dggs_i"
+            ],
+            "title": "October, Blue Marble Next Generation",
+            "dggs_dggsrs": "ISEA4D.Penta",
+            "published": "2004-10-1"
+        },
+        "dggs_s2/.zgroup": {
+            "zarr_format": 2
+        },
+        "dggs_s2/Red/.zattrs": {
+            "missing_value": 255,
+            "author": "NASA Earth Observatory",
+            "dggs_resolution": 2,
+            "source": "https://eoimages.gsfc.nasa.gov/images/imagerecords/73000/73826/world.topo.bathy.200410.3x21600x21600.D2.png",
+            "dggs_bbox": {
+                "Y": [
+                    -90.0,
+                    90.0
+                ],
+                "X": [
+                    -180.0,
+                    180.0
+                ]
+            },
+            "_ARRAY_DIMENSIONS": [
+                "dggs_n",
+                "dggs_j",
+                "dggs_i"
+            ],
+            "title": "October, Blue Marble Next Generation",
+            "dggs_dggsrs": "ISEA4D.Penta",
+            "published": "2004-10-1"
+        },
+        "dggs_s6/dggs_n/.zattrs": {
+            "_ARRAY_DIMENSIONS": [
+                "dggs_n"
+            ],
+            "_ARRAY_OFFSET": 0
+        },
+        "dggs_s11/Red/.zarray": {
+            "dtype": "<u1",
+            "filters": null,
+            "shape": [
+                5,
+                2048,
+                4096
+            ],
+            "order": "C",
+            "zarr_format": 2,
+            "chunks": [
+                5,
+                2048,
+                4096
+            ],
+            "fill_value": 255,
+            "compressor": {
+                "blocksize": 0,
+                "id": "blosc",
+                "clevel": 5,
+                "cname": "lz4",
+                "shuffle": 1
+            }
+        },
+        "dggs_s9/Red/.zarray": {
+            "dtype": "<u1",
+            "filters": null,
+            "shape": [
+                5,
+                512,
+                1024
+            ],
+            "order": "C",
+            "zarr_format": 2,
+            "chunks": [
+                5,
+                512,
+                1024
+            ],
+            "fill_value": 255,
+            "compressor": {
+                "blocksize": 0,
+                "id": "blosc",
+                "clevel": 5,
+                "cname": "lz4",
+                "shuffle": 1
+            }
+        },
+        "dggs_s4/.zattrs": {
+            "dggs_resolution": 4,
+            "dggs_dggsrs": "ISEA4D.Penta"
+        },
+        "dggs_s7/dggs_n/.zarray": {
+            "dtype": "<i8",
+            "filters": null,
+            "shape": [
+                5
+            ],
+            "order": "C",
+            "zarr_format": 2,
+            "chunks": [
+                5
+            ],
+            "fill_value": 9223372036854775807,
+            "compressor": {
+                "blocksize": 0,
+                "id": "blosc",
+                "clevel": 5,
+                "cname": "lz4",
+                "shuffle": 1
+            }
+        },
+        "dggs_s1/Green/.zarray": {
+            "dtype": "<u1",
+            "filters": null,
+            "shape": [
+                5,
+                2,
+                4
+            ],
+            "order": "C",
+            "zarr_format": 2,
+            "chunks": [
+                5,
+                2,
+                4
+            ],
+            "fill_value": 255,
+            "compressor": {
+                "blocksize": 0,
+                "id": "blosc",
+                "clevel": 5,
+                "cname": "lz4",
+                "shuffle": 1
+            }
+        },
+        "dggs_s1/dggs_i/.zarray": {
+            "dtype": "<i8",
+            "filters": null,
+            "shape": [
+                4
+            ],
+            "order": "C",
+            "zarr_format": 2,
+            "chunks": [
+                4
+            ],
+            "fill_value": 9223372036854775807,
+            "compressor": {
+                "blocksize": 0,
+                "id": "blosc",
+                "clevel": 5,
+                "cname": "lz4",
+                "shuffle": 1
+            }
+        },
+        "dggs_s10/dggs_i/.zarray": {
+            "dtype": "<i8",
+            "filters": null,
+            "shape": [
+                2048
+            ],
+            "order": "C",
+            "zarr_format": 2,
+            "chunks": [
+                2048
+            ],
+            "fill_value": 9223372036854775807,
+            "compressor": {
+                "blocksize": 0,
+                "id": "blosc",
+                "clevel": 5,
+                "cname": "lz4",
+                "shuffle": 1
+            }
+        },
+        "dggs_s1/dggs_i/.zattrs": {
+            "_ARRAY_DIMENSIONS": [
+                "dggs_i"
+            ],
+            "_ARRAY_OFFSET": 0
+        },
+        "dggs_s2/dggs_j/.zarray": {
+            "dtype": "<i8",
+            "filters": null,
+            "shape": [
+                4
+            ],
+            "order": "C",
+            "zarr_format": 2,
+            "chunks": [
+                4
+            ],
+            "fill_value": 9223372036854775807,
+            "compressor": {
+                "blocksize": 0,
+                "id": "blosc",
+                "clevel": 5,
+                "cname": "lz4",
+                "shuffle": 1
+            }
+        },
+        "dggs_s7/Green/.zarray": {
+            "dtype": "<u1",
+            "filters": null,
+            "shape": [
+                5,
+                128,
+                256
+            ],
+            "order": "C",
+            "zarr_format": 2,
+            "chunks": [
+                5,
+                128,
+                256
+            ],
+            "fill_value": 255,
+            "compressor": {
+                "blocksize": 0,
+                "id": "blosc",
+                "clevel": 5,
+                "cname": "lz4",
+                "shuffle": 1
+            }
+        },
+        "dggs_s4/.zgroup": {
+            "zarr_format": 2
+        },
+        "dggs_s1/dggs_n/.zarray": {
+            "dtype": "<i8",
+            "filters": null,
+            "shape": [
+                5
+            ],
+            "order": "C",
+            "zarr_format": 2,
+            "chunks": [
+                5
+            ],
+            "fill_value": 9223372036854775807,
+            "compressor": {
+                "blocksize": 0,
+                "id": "blosc",
+                "clevel": 5,
+                "cname": "lz4",
+                "shuffle": 1
+            }
+        },
+        "dggs_s7/dggs_i/.zattrs": {
+            "_ARRAY_DIMENSIONS": [
+                "dggs_i"
+            ],
+            "_ARRAY_OFFSET": 0
+        },
+        "dggs_s11/.zattrs": {
+            "dggs_resolution": 11,
+            "dggs_dggsrs": "ISEA4D.Penta"
+        },
+        "dggs_s11/dggs_i/.zarray": {
+            "dtype": "<i8",
+            "filters": null,
+            "shape": [
+                4096
+            ],
+            "order": "C",
+            "zarr_format": 2,
+            "chunks": [
+                4096
+            ],
+            "fill_value": 9223372036854775807,
+            "compressor": {
+                "blocksize": 0,
+                "id": "blosc",
+                "clevel": 5,
+                "cname": "lz4",
+                "shuffle": 1
+            }
+        },
+        "dggs_s6/Green/.zarray": {
+            "dtype": "<u1",
+            "filters": null,
+            "shape": [
+                5,
+                64,
+                128
+            ],
+            "order": "C",
+            "zarr_format": 2,
+            "chunks": [
+                5,
+                64,
+                128
+            ],
+            "fill_value": 255,
+            "compressor": {
+                "blocksize": 0,
+                "id": "blosc",
+                "clevel": 5,
+                "cname": "lz4",
+                "shuffle": 1
+            }
+        },
+        "dggs_s2/.zattrs": {
+            "dggs_resolution": 2,
+            "dggs_dggsrs": "ISEA4D.Penta"
+        },
+        "dggs_s6/dggs_j/.zarray": {
+            "dtype": "<i8",
+            "filters": null,
+            "shape": [
+                64
+            ],
+            "order": "C",
+            "zarr_format": 2,
+            "chunks": [
+                64
+            ],
+            "fill_value": 9223372036854775807,
+            "compressor": {
+                "blocksize": 0,
+                "id": "blosc",
+                "clevel": 5,
+                "cname": "lz4",
+                "shuffle": 1
+            }
+        },
+        "dggs_s3/Green/.zattrs": {
+            "missing_value": 255,
+            "author": "NASA Earth Observatory",
+            "dggs_resolution": 3,
+            "source": "https://eoimages.gsfc.nasa.gov/images/imagerecords/73000/73826/world.topo.bathy.200410.3x21600x21600.D2.png",
+            "dggs_bbox": {
+                "Y": [
+                    -90.0,
+                    90.0
+                ],
+                "X": [
+                    -180.0,
+                    180.0
+                ]
+            },
+            "_ARRAY_DIMENSIONS": [
+                "dggs_n",
+                "dggs_j",
+                "dggs_i"
+            ],
+            "title": "October, Blue Marble Next Generation",
+            "dggs_dggsrs": "ISEA4D.Penta",
+            "published": "2004-10-1"
+        },
+        "dggs_s7/Red/.zarray": {
+            "dtype": "<u1",
+            "filters": null,
+            "shape": [
+                5,
+                128,
+                256
+            ],
+            "order": "C",
+            "zarr_format": 2,
+            "chunks": [
+                5,
+                128,
+                256
+            ],
+            "fill_value": 255,
+            "compressor": {
+                "blocksize": 0,
+                "id": "blosc",
+                "clevel": 5,
+                "cname": "lz4",
+                "shuffle": 1
+            }
+        },
+        "dggs_s6/dggs_n/.zarray": {
+            "dtype": "<i8",
+            "filters": null,
+            "shape": [
+                5
+            ],
+            "order": "C",
+            "zarr_format": 2,
+            "chunks": [
+                5
+            ],
+            "fill_value": 9223372036854775807,
+            "compressor": {
+                "blocksize": 0,
+                "id": "blosc",
+                "clevel": 5,
+                "cname": "lz4",
+                "shuffle": 1
+            }
+        },
+        "dggs_s5/dggs_n/.zarray": {
+            "dtype": "<i8",
+            "filters": null,
+            "shape": [
+                5
+            ],
+            "order": "C",
+            "zarr_format": 2,
+            "chunks": [
+                5
+            ],
+            "fill_value": 9223372036854775807,
+            "compressor": {
+                "blocksize": 0,
+                "id": "blosc",
+                "clevel": 5,
+                "cname": "lz4",
+                "shuffle": 1
+            }
+        },
+        "dggs_s3/.zgroup": {
+            "zarr_format": 2
+        },
+        "dggs_s1/Blue/.zarray": {
+            "dtype": "<u1",
+            "filters": null,
+            "shape": [
+                5,
+                2,
+                4
+            ],
+            "order": "C",
+            "zarr_format": 2,
+            "chunks": [
+                5,
+                2,
+                4
+            ],
+            "fill_value": 255,
+            "compressor": {
+                "blocksize": 0,
+                "id": "blosc",
+                "clevel": 5,
+                "cname": "lz4",
+                "shuffle": 1
+            }
+        },
+        "dggs_s9/dggs_j/.zarray": {
+            "dtype": "<i8",
+            "filters": null,
+            "shape": [
+                512
+            ],
+            "order": "C",
+            "zarr_format": 2,
+            "chunks": [
+                512
+            ],
+            "fill_value": 9223372036854775807,
+            "compressor": {
+                "blocksize": 0,
+                "id": "blosc",
+                "clevel": 5,
+                "cname": "lz4",
+                "shuffle": 1
+            }
+        },
+        "dggs_s9/Green/.zattrs": {
+            "missing_value": 255,
+            "author": "NASA Earth Observatory",
+            "dggs_resolution": 9,
+            "source": "https://eoimages.gsfc.nasa.gov/images/imagerecords/73000/73826/world.topo.bathy.200410.3x21600x21600.D2.png",
+            "dggs_bbox": {
+                "Y": [
+                    -90.0,
+                    90.0
+                ],
+                "X": [
+                    -180.0,
+                    180.0
+                ]
+            },
+            "_ARRAY_DIMENSIONS": [
+                "dggs_n",
+                "dggs_j",
+                "dggs_i"
+            ],
+            "title": "October, Blue Marble Next Generation",
+            "dggs_dggsrs": "ISEA4D.Penta",
+            "published": "2004-10-1"
+        },
+        "dggs_s10/Green/.zarray": {
+            "dtype": "<u1",
+            "filters": null,
+            "shape": [
+                5,
+                1024,
+                2048
+            ],
+            "order": "C",
+            "zarr_format": 2,
+            "chunks": [
+                5,
+                1024,
+                2048
+            ],
+            "fill_value": 255,
+            "compressor": {
+                "blocksize": 0,
+                "id": "blosc",
+                "clevel": 5,
+                "cname": "lz4",
+                "shuffle": 1
+            }
+        },
+        "dggs_s4/dggs_j/.zarray": {
+            "dtype": "<i8",
+            "filters": null,
+            "shape": [
+                16
+            ],
+            "order": "C",
+            "zarr_format": 2,
+            "chunks": [
+                16
+            ],
+            "fill_value": 9223372036854775807,
+            "compressor": {
+                "blocksize": 0,
+                "id": "blosc",
+                "clevel": 5,
+                "cname": "lz4",
+                "shuffle": 1
+            }
+        },
+        "dggs_s10/dggs_n/.zarray": {
+            "dtype": "<i8",
+            "filters": null,
+            "shape": [
+                5
+            ],
+            "order": "C",
+            "zarr_format": 2,
+            "chunks": [
+                5
+            ],
+            "fill_value": 9223372036854775807,
+            "compressor": {
+                "blocksize": 0,
+                "id": "blosc",
+                "clevel": 5,
+                "cname": "lz4",
+                "shuffle": 1
+            }
+        },
+        "dggs_s6/Red/.zattrs": {
+            "missing_value": 255,
+            "author": "NASA Earth Observatory",
+            "dggs_resolution": 6,
+            "source": "https://eoimages.gsfc.nasa.gov/images/imagerecords/73000/73826/world.topo.bathy.200410.3x21600x21600.D2.png",
+            "dggs_bbox": {
+                "Y": [
+                    -90.0,
+                    90.0
+                ],
+                "X": [
+                    -180.0,
+                    180.0
+                ]
+            },
+            "_ARRAY_DIMENSIONS": [
+                "dggs_n",
+                "dggs_j",
+                "dggs_i"
+            ],
+            "title": "October, Blue Marble Next Generation",
+            "dggs_dggsrs": "ISEA4D.Penta",
+            "published": "2004-10-1"
+        },
+        "dggs_s9/.zattrs": {
+            "dggs_resolution": 9,
+            "dggs_dggsrs": "ISEA4D.Penta"
+        },
+        "dggs_s6/Blue/.zarray": {
+            "dtype": "<u1",
+            "filters": null,
+            "shape": [
+                5,
+                64,
+                128
+            ],
+            "order": "C",
+            "zarr_format": 2,
+            "chunks": [
+                5,
+                64,
+                128
+            ],
+            "fill_value": 255,
+            "compressor": {
+                "blocksize": 0,
+                "id": "blosc",
+                "clevel": 5,
+                "cname": "lz4",
+                "shuffle": 1
+            }
+        },
+        "dggs_s3/dggs_j/.zarray": {
+            "dtype": "<i8",
+            "filters": null,
+            "shape": [
+                8
+            ],
+            "order": "C",
+            "zarr_format": 2,
+            "chunks": [
+                8
+            ],
+            "fill_value": 9223372036854775807,
+            "compressor": {
+                "blocksize": 0,
+                "id": "blosc",
+                "clevel": 5,
+                "cname": "lz4",
+                "shuffle": 1
+            }
+        },
+        "dggs_s2/dggs_j/.zattrs": {
+            "_ARRAY_DIMENSIONS": [
+                "dggs_j"
+            ],
+            "_ARRAY_OFFSET": 0
+        },
+        "dggs_s4/dggs_i/.zarray": {
+            "dtype": "<i8",
+            "filters": null,
+            "shape": [
+                32
+            ],
+            "order": "C",
+            "zarr_format": 2,
+            "chunks": [
+                32
+            ],
+            "fill_value": 9223372036854775807,
+            "compressor": {
+                "blocksize": 0,
+                "id": "blosc",
+                "clevel": 5,
+                "cname": "lz4",
+                "shuffle": 1
+            }
+        },
+        "dggs_s5/dggs_n/.zattrs": {
+            "_ARRAY_DIMENSIONS": [
+                "dggs_n"
+            ],
+            "_ARRAY_OFFSET": 0
+        },
+        "dggs_s4/Blue/.zarray": {
+            "dtype": "<u1",
+            "filters": null,
+            "shape": [
+                5,
+                16,
+                32
+            ],
+            "order": "C",
+            "zarr_format": 2,
+            "chunks": [
+                5,
+                16,
+                32
+            ],
+            "fill_value": 255,
+            "compressor": {
+                "blocksize": 0,
+                "id": "blosc",
+                "clevel": 5,
+                "cname": "lz4",
+                "shuffle": 1
+            }
+        },
+        "dggs_s4/Green/.zarray": {
+            "dtype": "<u1",
+            "filters": null,
+            "shape": [
+                5,
+                16,
+                32
+            ],
+            "order": "C",
+            "zarr_format": 2,
+            "chunks": [
+                5,
+                16,
+                32
+            ],
+            "fill_value": 255,
+            "compressor": {
+                "blocksize": 0,
+                "id": "blosc",
+                "clevel": 5,
+                "cname": "lz4",
+                "shuffle": 1
+            }
+        },
+        "dggs_s11/Red/.zattrs": {
+            "missing_value": 255,
+            "author": "NASA Earth Observatory",
+            "dggs_resolution": 11,
+            "source": "https://eoimages.gsfc.nasa.gov/images/imagerecords/73000/73826/world.topo.bathy.200410.3x21600x21600.D2.png",
+            "dggs_bbox": {
+                "Y": [
+                    -90.0,
+                    90.0
+                ],
+                "X": [
+                    -180.0,
+                    180.0
+                ]
+            },
+            "_ARRAY_DIMENSIONS": [
+                "dggs_n",
+                "dggs_j",
+                "dggs_i"
+            ],
+            "title": "October, Blue Marble Next Generation",
+            "dggs_dggsrs": "ISEA4D.Penta",
+            "published": "2004-10-1"
+        },
+        "dggs_s10/dggs_j/.zarray": {
+            "dtype": "<i8",
+            "filters": null,
+            "shape": [
+                1024
+            ],
+            "order": "C",
+            "zarr_format": 2,
+            "chunks": [
+                1024
+            ],
+            "fill_value": 9223372036854775807,
+            "compressor": {
+                "blocksize": 0,
+                "id": "blosc",
+                "clevel": 5,
+                "cname": "lz4",
+                "shuffle": 1
+            }
+        },
+        "dggs_s2/Red/.zarray": {
+            "dtype": "<u1",
+            "filters": null,
+            "shape": [
+                5,
+                4,
+                8
+            ],
+            "order": "C",
+            "zarr_format": 2,
+            "chunks": [
+                5,
+                4,
+                8
+            ],
+            "fill_value": 255,
+            "compressor": {
+                "blocksize": 0,
+                "id": "blosc",
+                "clevel": 5,
+                "cname": "lz4",
+                "shuffle": 1
+            }
+        },
+        "dggs_s8/dggs_n/.zarray": {
+            "dtype": "<i8",
+            "filters": null,
+            "shape": [
+                5
+            ],
+            "order": "C",
+            "zarr_format": 2,
+            "chunks": [
+                5
+            ],
+            "fill_value": 9223372036854775807,
+            "compressor": {
+                "blocksize": 0,
+                "id": "blosc",
+                "clevel": 5,
+                "cname": "lz4",
+                "shuffle": 1
+            }
+        },
+        "dggs_s2/dggs_i/.zarray": {
+            "dtype": "<i8",
+            "filters": null,
+            "shape": [
+                8
+            ],
+            "order": "C",
+            "zarr_format": 2,
+            "chunks": [
+                8
+            ],
+            "fill_value": 9223372036854775807,
+            "compressor": {
+                "blocksize": 0,
+                "id": "blosc",
+                "clevel": 5,
+                "cname": "lz4",
+                "shuffle": 1
+            }
+        },
+        "dggs_s4/dggs_i/.zattrs": {
+            "_ARRAY_DIMENSIONS": [
+                "dggs_i"
+            ],
+            "_ARRAY_OFFSET": 0
+        },
+        "dggs_s7/dggs_j/.zattrs": {
+            "_ARRAY_DIMENSIONS": [
+                "dggs_j"
+            ],
+            "_ARRAY_OFFSET": 0
+        },
+        "dggs_s11/dggs_i/.zattrs": {
+            "_ARRAY_DIMENSIONS": [
+                "dggs_i"
+            ],
+            "_ARRAY_OFFSET": 0
+        },
+        "dggs_s9/Red/.zattrs": {
+            "missing_value": 255,
+            "author": "NASA Earth Observatory",
+            "dggs_resolution": 9,
+            "source": "https://eoimages.gsfc.nasa.gov/images/imagerecords/73000/73826/world.topo.bathy.200410.3x21600x21600.D2.png",
+            "dggs_bbox": {
+                "Y": [
+                    -90.0,
+                    90.0
+                ],
+                "X": [
+                    -180.0,
+                    180.0
+                ]
+            },
+            "_ARRAY_DIMENSIONS": [
+                "dggs_n",
+                "dggs_j",
+                "dggs_i"
+            ],
+            "title": "October, Blue Marble Next Generation",
+            "dggs_dggsrs": "ISEA4D.Penta",
+            "published": "2004-10-1"
+        },
+        "dggs_s1/dggs_j/.zattrs": {
+            "_ARRAY_DIMENSIONS": [
+                "dggs_j"
+            ],
+            "_ARRAY_OFFSET": 0
+        },
+        "dggs_s3/Blue/.zarray": {
+            "dtype": "<u1",
+            "filters": null,
+            "shape": [
+                5,
+                8,
+                16
+            ],
+            "order": "C",
+            "zarr_format": 2,
+            "chunks": [
+                5,
+                8,
+                16
+            ],
+            "fill_value": 255,
+            "compressor": {
+                "blocksize": 0,
+                "id": "blosc",
+                "clevel": 5,
+                "cname": "lz4",
+                "shuffle": 1
+            }
+        },
+        "dggs_s5/.zattrs": {
+            "dggs_resolution": 5,
+            "dggs_dggsrs": "ISEA4D.Penta"
+        },
+        "dggs_s6/.zattrs": {
+            "dggs_resolution": 6,
+            "dggs_dggsrs": "ISEA4D.Penta"
+        }
+    }
+}
