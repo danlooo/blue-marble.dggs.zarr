@@ -1,5 +1,7 @@
 # Blue Marble DGGS Raster Data Cube Example
 
+NASAs October, Blue Marble Next Generation w/ Topography and Bathymetry picture turned into a DGGS native raster data cube.
+
 <img width="100%" alt="image" src="https://github.com/user-attachments/assets/6a171796-e634-4f20-b1f0-d10ec0f01717" />
 
 ## Get Started
